@@ -4,4 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   modules: ["@nuxt/ui"],
+  vite: {
+    optimizeDeps: {
+      exclude: ["@evolu/common-web"],
+    },
+  },
 });
