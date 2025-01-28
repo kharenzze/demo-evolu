@@ -12,6 +12,7 @@
   "dependencies": {
     "@evolu/common": "^5.4.8",
     "@evolu/common-web": "^8.2.4",
+    "@nuxt/ui": "2.21.0",
     "nuxt": "^3.15.3",
     "vue": "latest",
     "vue-router": "latest"
