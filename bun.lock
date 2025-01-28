@@ -4,9 +4,12 @@
     "": {
       "name": "nuxt-app",
       "dependencies": {
+        "@effect/schema": "^0.75.5",
         "@evolu/common": "^5.4.8",
         "@evolu/common-web": "^8.2.4",
         "@nuxt/ui": "2.21.0",
+        "effect": "^3.12.7",
+        "fast-check": "^3.23.2",
         "nuxt": "^3.15.3",
         "vue": "latest",
         "vue-router": "latest",
@@ -652,7 +655,7 @@
 
     "ee-first": ["ee-first@1.1.1", "", {}, "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="],
 
-    "effect": ["effect@3.10.4", "", { "dependencies": { "fast-check": "^3.21.0" } }, "sha512-D7Mryq8jylT0fIGrgXEn2TublO/BhduRwzlqV5z1l/QFY6grs7UOyyomlAOFMK9ArSYiLgrOSMQ/Cr/cIOeU2Q=="],
+    "effect": ["effect@3.12.7", "", { "dependencies": { "fast-check": "^3.23.1" } }, "sha512-BsDTgSjLbL12g0+vGn5xkOgOVhRSaR3VeHmjcUb0gLvpXACJ9OgmlfeH+/FaAZwM5+omIF3I/j1gC5KJrbK1Aw=="],
 
     "electron-to-chromium": ["electron-to-chromium@1.5.88", "", {}, "sha512-K3C2qf1o+bGzbilTDCTBhTQcMS9KW60yTAaTeeXsfvQuTDDwlokLam/AdqlqcSy9u4UainDgsHV23ksXAOgamw=="],
 
