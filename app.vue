@@ -84,10 +84,19 @@ const onClickCreate = () => {
 
 <template>
   <div class="m-8">
-    <div class="flex flex-row gap-4">
+    <div class="flex flex-row gap-4 mb-8">
       <UButton @click="onClickReset">Reset</UButton>
       <UButton @click="onClickCreate">Create</UButton>
     </div>
-    <pre class="mt-8">{{ data }}</pre>
+    <div class="flex flex-row w-full">
+      <div class="flex flex-col gap-4 flex-1">
+        <div v-for="item in data" :key="item.id">
+          <Item :item="item" />
+        </div>
+      </div>
+      <div class="flex flex-col gap-4 flex-1">
+        <pre>{{ data }}</pre>
+      </div>
+    </div>
   </div>
 </template>
